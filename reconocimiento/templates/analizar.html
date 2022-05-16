@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <br><br>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                Analizar
+            </div>
+            <div class="card-body">
+                <div class="container row">
+                    <div class="col">
+                        <img class="card-image-top" src={{imagen}} width="100%" height="100%">
+                    </div>
+                    <div class="col">
+                        <p>Información: Género: {{genero}}, Edad: {{edad}}, Emocion: {{emocion}}</p>
+                        <iframe style="border-radius:12px" src={{playlist}} width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
